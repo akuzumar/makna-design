@@ -12,9 +12,9 @@
         <div class="logo">Makna Design</div>
         <nav>
             <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="tentang.html">Tentang Kami</a></li>
-                <li><a href="kerjasama.html">Kerja Sama</a></li>
+                <li><a href="#home">Home</a></li> 
+                <li><a href="#tentang">Tentang Kami</a></li>
+                <li><a href="#kerjasama">Kerja Sama</a></li>
             </ul>
         </nav>
     </header>
@@ -44,24 +44,25 @@
             </div>
             
         </section>
-        </main>
+    </main>
     
-    <footer>
+    <footer id="tentang">
         <p>&copy; 2025 Makna Design.</p>
     </footer>
 
     <div id="imageModal" class="modal">
         <div class="modal-content">
-            <p id="modalCaptionTitle" class="action-sheet-title">Pilih Aksi</p> 
+            <p id="modalCaptionTitle" class="action-sheet-title"></p> 
             
             <div class="modal-actions">
                 <a id="btnFullFile" href="#" target="_blank" class="modal-btn full-file">Lihat File Penuh</a>
                 <a id="btnWhatsapp" href="#" target="_blank" class="modal-btn whatsapp">Hubungi Desainer (WA)</a>
                 <button id="btnShare" class="modal-btn share">Bagikan Foto</button>
+                
+                <button id="btnCancel" class="modal-btn cancel">Batal</button> 
             </div>
             
-            <button id="btnCancel" class="modal-btn cancel">Batal</button> 
-        </div>
+            </div>
     </div>
 
     <script src="script.js"></script> 
